@@ -17,4 +17,3 @@
 - [`21180f7`](https://github.com/martinchang-bit/readme-auto-update/commit/21180f7f90694055031f6264a8a17e79d2f43e48) feat: add README markers, update script and workflow (#1) — @martinchang-bit (2026-10-05)
 - [`592085a`](https://github.com/martinchang-bit/readme-auto-update/commit/592085a37fb17fb48edc361f3247de5340e70a5e) Update README with recent activity section — @martinchang-bit (2026-10-05)
 - [`909f247`](https://github.com/martinchang-bit/readme-auto-update/commit/909f247fca099cbdb4d8f1536f73f3bad38379b8) Initial commit — @martinchang-bit (2026-10-05)
-<!-- RECENT_ACTIVITY:END -->
