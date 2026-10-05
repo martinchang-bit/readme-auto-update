@@ -10,6 +10,8 @@
 ## Recent Activity
 
 <!-- RECENT_ACTIVITY:START -->
+- [`c5def88`](https://github.com/martinchang-bit/readme-auto-update/commit/c5def8852d3720ba6774bf5a005a938be4c9436f) Merge pull request #4 from martinchang-bit/3-add-validation-tests-pull-request-preview-and-badges-for-readme-automation — @martinchang-bit (2026-10-05)
+- [`059079a`](https://github.com/martinchang-bit/readme-auto-update/commit/059079a615fa3e3e0ca720c06c67afafe26ae317) feat: add README validation, unit tests, pull request preview and badges (#3) — @martinchang-bit (2026-10-05)
 - [`ccf6788`](https://github.com/martinchang-bit/readme-auto-update/commit/ccf678873c0bb1d54e03159f67a3dd97f7983bed) chore: add .gitignore — @martinchang-bit (2026-10-05)
 - [`16cd309`](https://github.com/martinchang-bit/readme-auto-update/commit/16cd309c46cb7b432ee7b595eeee46c415ba3221) Merge pull request #2 from martinchang-bit/1-auto-update-readme-with-recent-repository-activity — @martinchang-bit (2026-10-05)
 - [`b368660`](https://github.com/martinchang-bit/readme-auto-update/commit/b3686602ed14c60b674a2451165721ad20e9178f) Merge branch 'main' into 1-auto-update-readme-with-recent-repository-activity — @martinchang-bit (2026-10-05)
