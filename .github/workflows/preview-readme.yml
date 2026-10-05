@@ -1,0 +1,32 @@
+name: Preview README changes
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dry run (nothing is committed or pushed)
+        run: python scripts/update_readme.py
+        env:
+          REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
+      - name: Show diff in job summary
+        run: |
+          {
+            echo "## README preview diff"
+            if git diff --quiet README.md; then
+              echo "No README changes would be made."
+            else
+              echo '```diff'
+              git diff README.md
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
